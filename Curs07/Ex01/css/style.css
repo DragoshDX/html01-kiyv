@@ -1,3 +1,19 @@
 a {
   color: red;
 }
+
+.selectorul-meu {
+  color: red;
+}
+
+[class*='selectorul-meu'] {
+  color: red;
+}
+
+#content {
+  color: red;
+}
+
+[id='content'] {
+  color: red;
+}

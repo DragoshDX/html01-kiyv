@@ -1,0 +1,11 @@
+i {
+  color: rgb(255, 0, 0);
+}
+
+.links a {
+  text-decoration: none;
+}
+
+a[href*='.com'] {
+  color: black;
+}
