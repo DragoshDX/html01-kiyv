@@ -12,7 +12,7 @@
   "prettier.trailingComma": "all",
   "prettier.disableLanguages": ["html"],
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
