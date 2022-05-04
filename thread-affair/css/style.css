@@ -359,6 +359,18 @@ a {
 
 .nav-secondary li {
   display: inline-block;
+  margin: 0 4px;
 }
 
+.nav-secondary li a {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  transition: color 0.2s linear;
+}
+
+.nav-secondary li a:hover {
+  color: #ff6b6b;
+}
 /* end-header */
