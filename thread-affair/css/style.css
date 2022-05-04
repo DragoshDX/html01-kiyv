@@ -387,13 +387,64 @@ a {
   text-transform: uppercase;
 }
 
+.footer-nav {
+  margin-bottom: 50px;
+}
+
 .footer-nav ul {
   display: inline-block;
   margin-right: 32px;
+  vertical-align: top;
 }
 
 .footer-nav ul li {
   margin-bottom: 6px;
+}
+
+.footer-support {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-support li {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.footer-support li:first-child {
+  margin: 0;
+}
+
+.footer-support i[class*='fa-'] {
+  color: #ff6b6b;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-contact {
+  display: inline-block;
+  margin-left: 24px;
+  text-transform: none;
+}
+
+.footer-contact h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.footer-contact h1 span {
+  font-weight: 500;
+}
+
+.footer-contact p {
+  line-height: 18px;
+}
+
+.footer-contact p a:nth-of-type(2) {
+  color: #ff6b6b;
+  display: block;
 }
 
 .footer-bottom {
