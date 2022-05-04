@@ -239,6 +239,7 @@ table {
 body {
   font-family: 'Roboto', sans-serif;
   color: #707070;
+  font-size: 16px;
 }
 
 a {
@@ -260,6 +261,21 @@ a {
 
 .header-connect {
   float: left;
+}
+
+.header-connect li {
+  display: inline-block;
+}
+
+.header-connect li:first-child i[class*='fa-'] {
+  color: #ff6b6b;
+  font-size: 24px;
+}
+
+.header-connect li:nth-child(2) {
+  border-left: 1px solid #707070;
+  padding-left: 16px;
+  margin-left: 16px;
 }
 
 .header-controls {
@@ -285,4 +301,4 @@ a {
   display: inline-block;
 }
 
-/* header */
+/* end-header */
