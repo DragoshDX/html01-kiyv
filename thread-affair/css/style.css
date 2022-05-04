@@ -333,10 +333,28 @@ a {
   text-align: center;
 }
 
-/* .nav-primary {text-align: center} */
+.nav-primary {
+  margin-bottom: 16px;
+}
 
 .nav-primary li {
   display: inline-block;
+}
+
+.nav-primary li a {
+  display: inherit;
+  padding: 8px 18px;
+  text-transform: uppercase;
+  margin: 0 4px;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 24px;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.nav-primary li a:hover {
+  color: #fff;
+  background-color: #ff6b6b;
 }
 
 .nav-secondary li {
