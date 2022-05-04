@@ -374,3 +374,35 @@ a {
   color: #ff6b6b;
 }
 /* end-header */
+
+/* footer */
+.footer-top {
+  background: #1b1927 url('./../images/banners/banner-06.jpg') no-repeat right
+    center;
+  margin-bottom: 16px;
+  padding: 50px;
+  color: #aeaeae;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.footer-nav ul {
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.footer-nav ul li {
+  margin-bottom: 6px;
+}
+
+.footer-bottom {
+  font-size: 14px;
+  color: #626262;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin-bottom: 8px;
+}
+/* end-footer */
