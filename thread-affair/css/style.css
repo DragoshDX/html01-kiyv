@@ -457,3 +457,20 @@ a {
   margin-bottom: 8px;
 }
 /* end-footer */
+
+/* homepage */
+.content-main > section > header {
+  text-align: center;
+}
+
+.content-main > section > header > h1 {
+  font-size: 30px;
+  color: #292929;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.content-main > section > header > h1 span {
+  font-weight: 500;
+}
+/* end-homepage */
