@@ -459,6 +459,10 @@ a {
 /* end-footer */
 
 /* homepage */
+.content-main > section {
+  margin-bottom: 96px;
+}
+
 .content-main > section > header {
   text-align: center;
 }
@@ -472,5 +476,37 @@ a {
 
 .content-main > section > header > h1 span {
   font-weight: 500;
+}
+
+.home-social ul {
+  margin-top: 33px;
+  text-align: center;
+}
+
+.home-social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.home-social a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #5e5e5e;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+}
+
+.home-payment ul {
+  margin: 43px auto 0 auto;
+  width: 340px;
+  text-align: center;
+}
+
+.home-payment ul li {
+  display: inline-block;
+  margin: 5px;
 }
 /* end-homepage */
