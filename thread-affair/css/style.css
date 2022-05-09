@@ -459,6 +459,13 @@ a {
 /* end-footer */
 
 /* homepage */
+.content-header {
+  background: #1b1927 url('./../images/banners/banner-01.jpg') center center /
+    cover no-repeat;
+  height: 572px;
+  margin-bottom: 96px;
+}
+
 .content-main > section {
   margin-bottom: 96px;
 }
