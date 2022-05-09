@@ -540,11 +540,21 @@ a {
   margin-bottom: 50px;
 }
 
+.product-tiles {
+  display: flex;
+  justify-content: space-between;
+}
+
 .product-tile {
+  width: 27.34375%; /* 350 / 1280 * 100 */
 }
 
 .product-tile .product-tile-image {
   position: relative;
+}
+
+.product-tile .product-tile-image img {
+  width: 100%;
 }
 
 .product-tile .product-tile-badge {
@@ -552,7 +562,7 @@ a {
   font-size: 26px;
   font-weight: 500;
   top: 20px;
-  left: 305px;
+  right: 20px;
   position: absolute;
 }
 
